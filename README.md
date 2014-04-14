@@ -11,6 +11,8 @@ windows8.01-Ajax-Progress-bar
 just copy and paste the `CSS` part in your `.css` file or inside `Head` tag, and copy-paste `HTML Part`, Then style the `progressbarWrapper` `div tag` where you want in your page...
 <br><br>
 Have Fun...
+<h2>This is a DEMO: http://jsbin.com/rinur/1/edit?html,css,output </h2>
+<h3> Tested in `CHROME`, `OPERA`, `FireFox` and `I.E 11`... </h3>
 <h3> `Author:` </h3>
 <h1> `Kiyarash Sanjarani Vahed` </h1>
 <h2> `kiarash.3tar@gmail.com & ksvahed@gmail.com` </h2>
