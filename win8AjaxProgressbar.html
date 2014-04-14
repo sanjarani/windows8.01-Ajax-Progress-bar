@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="author" content="Kiyarash Sanjarani Vahed/کیارش سنجرانی واحد">
+<title>Windows 8.01 Ajax Progressbar</title>
+<style type="text/css">
+@keyframes progress {
+0%   {margin-left:-150px;}
+50%  {margin-left:450px; }
+100% {margin-left:1150px;}	
+}
+
+@-webkit-keyframes progress {
+0%   {margin-left:-150px;}
+50%  {margin-left:450px; }
+100% {margin-left:1150px;}	
+}
+
+div#progressbarWrapper {
+	width:900px;
+	height:28px;
+	position:absolute;
+	margin:auto;
+	top:25%;
+	background-color:#EEE;
+	overflow:hidden;
+}
+div.progressbar {
+	width:11px;
+	height:11px;
+	position:absolute;
+	border:1px solid #009;
+	
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	
+	background-color:#09F;
+	background:linear-gradient(rgb(119,227,255), rgb(0,153,255) );
+	-webkit-background:linear-gradient(rgb(119,227,255), rgb(0,153,255) );
+	-moz-background:linear-gradient(rgb(119,227,255), rgb(0,153,255) );
+	display:inline-block;
+	margin-top:8px;
+	margin-left:-150px;
+}
+div#p1 {
+	animation: progress 7s cubic-bezier(0.550, 0.225, 0.088, 0.550);
+	animation-delay: 0ms;
+	animation-iteration-count:infinite;
+	
+	-webkit-animation: progress 7s cubic-bezier(0.550, 0.225, 0.088, 0.550);
+   -webkit-animation-delay: 0ms; 
+	-webkit-animation-iteration-count:infinite;
+}
+div#p2 {
+	animation: progress 7s cubic-bezier(0.550, 0.225, 0.088, 0.550);
+	animation-delay: 400ms;
+	animation-iteration-count:infinite;
+	
+	-webkit-animation: progress 7s cubic-bezier(0.550, 0.225, 0.088, 0.550);
+	-webkit-animation-delay: 400ms; 
+	-webkit-animation-iteration-count:infinite;
+}
+div#p3 {
+	animation: progress 7s cubic-bezier(0.550, 0.225, 0.088, 0.550);
+	animation-delay: 800ms;
+	animation-iteration-count:infinite;
+	
+	-webkit-animation: progress 7s cubic-bezier(0.550, 0.225, 0.088, 0.550);
+	-webkit-animation-delay: 800ms; 
+	-webkit-animation-iteration-count:infinite;
+}
+div#p4 {
+	animation: progress 7s cubic-bezier(0.550, 0.225, 0.088, 0.550);
+	animation-delay: 1200ms;
+	animation-iteration-count:infinite;
+	
+	-webkit-animation: progress 7s cubic-bezier(0.550, 0.225, 0.088, 0.550);
+	-webkit-animation-delay: 1200ms;
+	-webkit-animation-iteration-count:infinite;
+}
+div#p5 {
+	animation: progress 7s cubic-bezier(0.550, 0.225, 0.088, 0.550);
+	animation-delay: 1600ms;
+	animation-iteration-count:infinite;
+	
+	-webkit-animation: progress 7s cubic-bezier(0.550, 0.225, 0.088, 0.550);
+	-webkit-animation-delay: 1600ms;
+	-webkit-animation-iteration-count:infinite;
+}
+div#p6 {
+	animation: progress 7s cubic-bezier(0.550, 0.225, 0.088, 0.550);
+	animation-delay: 2000ms;
+	animation-iteration-count:infinite;
+	
+	-webkit-animation: progress 7s cubic-bezier(0.550, 0.225, 0.088, 0.550);
+	-webkit-animation-delay: 2000ms;
+	-webkit-animation-iteration-count:infinite;
+}
+div#p7 {
+	animation: progress 7s cubic-bezier(0.550, 0.225, 0.088, 0.550);
+	animation-delay: 2400ms;
+	animation-iteration-count:infinite;
+	
+	-webkit-animation: progress 7s cubic-bezier(0.550, 0.225, 0.088, 0.550);
+	-webkit-animation-delay: 2400ms;
+	-webkit-animation-iteration-count:infinite;
+}
+
+</style>
+</head>
+
+<body>
+
+   <div id="progressbarWrapper">
+   
+     <div class="progressbar" id="p1"></div>
+     
+     <div class="progressbar" id="p2"></div>
+     
+     <div class="progressbar" id="p3"></div>
+     
+     <div class="progressbar" id="p4"></div>
+     
+     <div class="progressbar" id="p5"></div>
+     
+     <div class="progressbar" id="p6"></div>
+     
+     <div class="progressbar" id="p7"></div>
+   
+	</div>
+
+</body>
+</html>
